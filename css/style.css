@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient( -44deg, rgba(45, 2, 51, 0.76), rgba(6, 4, 136, 0.925) ) no-repeat fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* CSS do main */
+
+main {
+  width: 100%;
+}
+
+.projetos {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.projeto__card a{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  min-height: 350px;
+}
+
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+
+.card img:hover, .card p:hover{
+  transform: scale(1.05);
+}
+
+.card p {
+  font-size: 1.3rem;
+  color: #fff;
+  width: 80%;
+  display: none;
+}
+
+
+.projeto__card:hover p{
+  display: block;
+}
+
+.card span{
+  color: rgb(161, 157, 156);
+}
+
+a{
+  list-style: none;
+  text-decoration: none;
+}
+
+/* imagens */
+
+.card-200px  {
+  width: 350px;
+
+}
