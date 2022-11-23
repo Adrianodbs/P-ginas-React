@@ -17,6 +17,44 @@ const listaProjetos = [
     descricao: '(Exemplo de um portifólio utilizando o React.)',
     link: 'https://portifolio-react-gray.vercel.app/',
     img: './img/portifolio.png'
+  },
+  {
+    nome: 'Controle de finanças',
+    descricao:
+      '(Aplicação para calcular recebimento e despesas ao longo de um determindo período.)',
+    link: 'https://controle-de-finan-as-react.vercel.app/',
+    img: './img/controle-financas.png'
+  },
+  {
+    nome: 'Dicionário de inglês',
+    descricao:
+      '(Aplicação onde você cadastra uma palavra, sua tradução e uma aplicação em frase.)',
+    link: 'https://ingles-react.vercel.app/',
+    img: './img/ingles.png'
+  },
+  {
+    nome: 'Mini Blog',
+    descricao: '(Aplicação utilizando ReactJs e Firebase.)',
+    link: 'https://miniblog-kohl.vercel.app/',
+    img: './img/miniblog.png'
+  },
+  {
+    nome: 'Palavra Secreta',
+    descricao: '(Adivinhe a palavra secreta.)',
+    link: 'https://palavra-secreta-react.vercel.app/',
+    img: './img/palavra-secreta.png'
+  },
+  {
+    nome: 'Trato Tech',
+    descricao: '(Aplicação utilizando React Redux.)',
+    link: 'https://react-gerenciamento-de-estados-globais-com-redux-z3e9.vercel.app/',
+    img: './img/trato-tech.png'
+  },
+  {
+    nome: 'Villa dos bolos',
+    descricao: '(Projeto pessoal.)',
+    link: 'https://villa-dos-bolos.vercel.app/',
+    img: './img/vila-dos-bolos.png'
   }
 ]
 
