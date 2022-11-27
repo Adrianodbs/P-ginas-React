@@ -54,7 +54,13 @@ const listaProjetos = [
     nome: 'Villa dos bolos',
     descricao: '(Projeto pessoal.)',
     link: 'https://villa-dos-bolos.vercel.app/',
-    img: './img/vila-dos-bolos.png'
+    img: './img/Vila-dos-bolos.png'
+  },
+  {
+    nome: 'TODO list com typescript',
+    descricao: '(Projeto simples para desenvolver habilidades em typescript)',
+    link: 'https://todo-typescript-tan.vercel.app/',
+    img: './img/todo-type.png'
   }
 ]
 
@@ -65,7 +71,7 @@ listaProjetos.forEach(item => {
   <div class="projetos">
   <div class="projeto__card">
     <a
-      href="${item.link}"
+      href="${item.link}"target="_blank"
       class="card"
     >
       <p>
